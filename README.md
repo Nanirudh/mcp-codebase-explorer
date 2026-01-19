@@ -8,9 +8,9 @@ A minimal MCP server that exposes read-only tools for exploring a codebase.
 
 
 ## Tools
-- `list_files`: list files/directories (supports recursive)
-- `get_file`: read a file with line range limits
-- `search_code`: search for a string in the codebase
+- `list_files`: list files/directories (supports recursive) <br>
+- `get_file`: read a file with line range limits <br>
+- `search_code`: search for a string in the codebase <br>
 
 
 
@@ -21,15 +21,15 @@ python sdk_client.py
 ```
 
 ## Output:
-🔄 Initializing...
-✅ Connected & initialized!
+🔄 Initializing... <br>
+✅ Connected & initialized! <br>
 
-Available tools:
-  📁 list_files: List files and directories in the codebase
-  📁 get_file: Read a file with line range limits
-  📁 search_code: Search for a string in the codebase and return matching locations
+Available tools: <br>
+  📁 list_files: List files and directories in the codebase <br>
+  📁 get_file: Read a file with line range limits <br>
+  📁 search_code: Search for a string in the codebase and return matching locations <br>
 
-=== 📂 Current directory ===
+=== 📂 Current directory === <br>
 {
   "path": ".",
   "directories": [],
@@ -66,16 +66,16 @@ Available tools:
   "total_files": 7
 }
 
-=== 🔍 Recursive scan ===
-  📊 Total files: 7
-  📁 Directories: 0
-  📄 Files: 7
+=== 🔍 Recursive scan === <br>
+  📊 Total files: 7 <br>
+  📁 Directories: 0 <br>
+  📄 Files: 7 <br>
 
-=== 📖 Reading server.py ===
-  Lines 1-99/99
-  Preview:
-      1: from mcp.server import Server
-      2: from mcp.server.stdio import stdio_server
-      3: from mcp.server.models import InitializationOptions
-      4: from mcp.types import Tool
-      5: import asyncio
+=== 📖 Reading server.py === <br>
+  Lines 1-99/99 <br>
+  Preview: <br>
+      1: from mcp.server import Server <br>
+      2: from mcp.server.stdio import stdio_server <br>
+      3: from mcp.server.models import InitializationOptions <br>
+      4: from mcp.types import Tool <br>
+      5: import asyncio <br>
